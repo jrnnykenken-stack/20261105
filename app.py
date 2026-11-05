@@ -36,7 +36,7 @@ with tab1:
         
         # 顯示基本指標數據
         col1, col2, col3, col4 = st.columns(4)
-        col1.metric("當前成交價", f"{rt['latest_trade_price']} 元", f"{rt['change']} 元")
+        col1.metric("當前成交價", f"{rt['latest_trade_price']} 元")
         col2.metric("開盤價", f"{rt['open']} 元")
         col3.metric("最高價", f"{rt['high']} 元")
         col4.metric("最低價", f"{rt['low']} 元")
